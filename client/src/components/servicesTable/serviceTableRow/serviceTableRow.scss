@@ -1,0 +1,27 @@
+.service-table-row {
+    padding: 0;
+
+    &__name {
+        cursor: pointer;
+        display: flex;
+        flex: 1;
+        padding: 14px;
+    }
+
+    &__buttons {
+        display: flex;
+        gap: 5px;
+        z-index: 2;
+        padding-right: 14px;
+    }
+
+    &__input {
+        max-width: 50px;
+    }
+
+    &__info {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+}

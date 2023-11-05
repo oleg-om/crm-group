@@ -1,0 +1,11 @@
+.service-table {
+    overflow: scroll;
+    .ant{
+        &-spin-nested-loading {
+
+        }
+        &-list-header {
+            position: sticky;
+        }
+    }
+}

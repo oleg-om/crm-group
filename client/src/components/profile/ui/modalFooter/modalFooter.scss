@@ -1,0 +1,10 @@
+.modal-footer {
+    display: flex;
+    justify-content: end;
+
+    &__button {
+        &:not(:last-child) {
+            margin-right: 5px;
+        }
+    }
+}

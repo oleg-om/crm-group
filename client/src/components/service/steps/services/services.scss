@@ -1,0 +1,14 @@
+@import "@styles/variables.scss";
+
+.services {
+    display: grid;
+    gap: 20px;
+    flex: 1;
+    max-height: 66vh;
+    height: 100px;
+    min-height: 100%;
+
+    @include media-min($breakpoint-xs) {
+        max-height: 78vh;
+    }
+}

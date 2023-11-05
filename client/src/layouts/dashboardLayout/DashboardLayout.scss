@@ -1,0 +1,25 @@
+@import '@styles/variables.scss';
+
+.layout-dashboard {
+    min-height: 100vh;
+
+    &__content {
+        display: flex;
+        flex-direction: column;
+
+        @include media-min($breakpoint-md) {
+            padding: 0 50px;
+        }
+    }
+
+    &__children {
+        display: flex;
+        flex: 1;
+        flex-direction: column;
+        padding: 5px;
+
+        @include media-min($breakpoint-md) {
+            padding: 30px;
+        }
+    }
+}

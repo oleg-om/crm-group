@@ -1,0 +1,20 @@
+@import '@styles/variables.scss';
+
+.search-bar {
+    flex-direction: column;
+
+    @include media-min($breakpoint-md) {
+        flex-direction: row;
+    }
+
+    &__row {
+        &:not(:last-child) {
+            margin-bottom: 10px;
+
+            @include media-min($breakpoint-md) {
+                margin-bottom: 0;
+                margin-right: 10px;
+            }
+        }
+    }
+}

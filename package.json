@@ -1,0 +1,11 @@
+{
+  "name": "crm-group",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:oleg-om/crm-group.git",
+  "author": "Oleg Omelchenko <oleg.omelc93@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "concurrently \\\\\\\"cd server && yarn dev\\\\\\\" \\\\\\\"cd client && yarn start\\\\\\\""
+  }
+}

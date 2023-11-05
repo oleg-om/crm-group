@@ -1,0 +1,11 @@
+.steps-switch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    &__button {
+        &:not(:last-child) {
+            margin-right: 8px;
+        }
+    }
+}

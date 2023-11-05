@@ -1,0 +1,13 @@
+.auth-layout {
+    min-height: 100vh;
+    &__content {
+        display: flex;
+        flex: 1;
+    }
+    &__children {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex: 1;
+    }
+}

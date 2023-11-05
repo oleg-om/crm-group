@@ -1,0 +1,13 @@
+.navbar {
+    &__avatar {
+        display: flex;
+        align-items: center;
+
+        &-image {
+            margin-left: auto;
+            cursor: pointer;
+            background-color: #fde3cf;
+            color: #f56a00
+        }
+    }
+}
